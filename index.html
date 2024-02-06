@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Build a Product Landing Page || freeCodeCamp</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+
+<body>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <header id="header">
+        <nav id="nav-bar">
+            <div id="logo-container">
+                <img src="https://www.creativefabrica.com/wp-content/uploads/2023/06/14/Open-book-icon-Reading-club-logo-Knowl-Graphics-72117356-1-1-580x387.png"
+                    height="50px" id="header-img">
+                <span id="logo-name">StoryShelf</span>
+            </div>
+            <ul id="nav-list">
+                <a href="#features" class="nav-link">
+                    <li>Features</li>
+                </a>
+                <a href="#free_audio_book" class="nav-link">
+                    <li>Free Audio Book</li>
+                </a>
+                <a href="#for_sale" class="nav-link">
+                    <li>For Sale</li>
+                </a>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="container">
+        <section id="hero">
+            <h2>Enchanting Masterpieces</h2>
+            <form action="https://www.freecodecamp.com/email-submit" id="form">
+                <input type="email" id="email" placeholder="Enter your email address" name="email" required>
+                <input type="submit" value="Sign Up" id="submit">
+            </form>
+        </section>
+        <section id="features">
+            <div class="features-container">
+                <i class="material-icons icon">eco</i>
+                <div class="description">
+                    <h2>Premium Materials</h2>
+                    <p>Our books use the finest paper which is sourced locally and sustainably.</p>
+                </div>
+            </div>
+            <div class="features-container">
+                <i class="material-icons icon">local_shipping</i>
+                <div class="description">
+                    <h2>1 Day Shipping</h2>
+                    <p>We ensure you get your StoryShelf book as soon possible. We also provide free returns if
+                        unsatisfied.</p>
+                </div>
+            </div>
+            <div class="features-container">
+                <i class="material-icons icon">star</i>
+                <div class="description">
+                    <h2>Quality Books Only</h2>
+                    <p>We indentify the books you buy have the highest review in the current market.</p>
+                </div>
+            </div>
+        </section>
+        <section id="free_audio_book">
+
+            <iframe 
+                id="video" src="https://www.youtube.com/embed/5NqgTLvJVPQ?si=uIAfUnxOvUusANv2"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture;" allowfullscreen
+                >
+            </iframe>
+
+        </section>
+
+        <section id="for_sale">
+            <div class="product-cards">
+                <div class="card">
+                    <div class="product_image_container">
+                        <img src="https://m.media-amazon.com/images/I/81ujr6y6atL._SY342_.jpg" alt=""
+                            class="product_image">
+                    </div>
+                    <div class="card_body">
+                        <div class="card_header">Alpha Rising: Book 12 of the Grey Wolves Series</div>
+                        <p class="author">by <span class="author_name">Quinn Loftus</span></p>
+                        <p class="reviews">
+                            <i class="material-icons icon review">star</i>
+                            <i class="material-icons icon review">star</i>
+                            <i class="material-icons icon review">star</i>
+                            <i class="material-icons icon review">star</i>
+                            <i class="material-icons icon review">star</i>
+                            <span class="review_number">1,737</span>
+                        </p>
+                        <p class="card_description">Supernatural war is on the horizon, and no one will escape
+                            unscathed.Enemy after enemy, foe after foe, has fallen before the combined might of the
+                            Romanian grey wolves and their allies among the supernatural races. But now the alliance
+                            doesn't fight a single supernatural threat. It's no longer a single coven of vampires, a
+                            lone deranged warlock, or a rogue pack that threatens their safety. Now, the wolves face a
+                            unified force of evil--the Order of the Burning Claw. The Order needs a representative from
+                            every supernatural race to unleash a spell that will enslave humanity forever, and they've
+                            just recruited one of their most powerful members.The Order will stop at nothing to gain
+                            power, including kidnapping the pack’s children and its beleaguered healer. The Romanian
+                            pack would love nothing more than to bring the wrath of the Great Luna down upon their foes.
+                            But how can they do that when their enemies hold captive the pack’s greatest treasures.
+                            Before this is over, bonds will be tested, a new leader will rise, and all hell will break
+                            loose.</p>
+                        <div class="price_container">
+                            <span class="price">£5.40</span>
+                            <span class="reduction">£15.99</span>
+                        </div>
+                        <button class="btn">Add to cart</button>
+                    </div>
+
+                </div>
+                <div class="card">
+
+                    <div class="product_image_container">
+                        <img src="https://m.media-amazon.com/images/I/91MfFBRDceL._AC_UY218_.jpg" alt=""
+                            class="product_image">
+                    </div>
+                    <div class="card_body">
+                        <div class="card_header">Pride and Prejudice: The Complete Novel</div>
+                        <p class="author">by <span class="author_name">Jane Austen</span></p>
+                        <p class="reviews">
+                            <i class="material-icons icon review">star</i>
+                            <i class="material-icons icon review">star</i>
+                            <i class="material-icons icon review">star</i>
+                            <i class="material-icons icon review">star</i>
+                            <i class="material-icons icon review">star</i>
+                            <span class="review_number">3,068</span>
+                        </p>
+                        <p class="card_description">Pride and Prejudice: An Epistolary Edition Containing Nineteen
+                            Handwritten Letters is a collection of the letters exchanged between Jane Austen's
+                            characters in Pride and Prejudice.
+
+                            Glassine pockets placed throughout the book contain removable replicas of all 19 letters in
+                            the story.
+
+                            From Lydia's announcement of her elopement, to Mr. Darcy's honest, beseeching missive to
+                            Elizabeth, this deluxe edition pays homage to the power of these epistles.
+
+                            • Nothing captures Jane Austen's vivid emotion and keen wit better than her characters'
+                            correspondence.
+                            • Each letter is re-created with gorgeous calligraphy.
+                            • Letters are hand-folded with painstaking attention to historical detail.</p>
+                        <div class="price_container">
+                            <span class="price">£25.08</span>
+                            <span class="reduction">£30.00</span>
+                        </div>
+                        <button class="btn">Add to cart</button>
+                    </div>
+
+                </div>
+                <div class="card">
+                    <div class="product_image_container">
+                        <img src="https://m.media-amazon.com/images/I/71Vphf6m8vL._SY342_.jpg" alt=""
+                            class="product_image">
+                    </div>
+                    <div class="card_body">
+                        <div class="card_header">Game of Thrones: The Costumes: Seasons 1 to 8</div>
+                        <p class="author">by <span class="author_name">Michelle Clapton</span></p>
+                        <p class="reviews">
+                            <i class="material-icons icon review">star</i>
+                            <i class="material-icons icon review">star</i>
+                            <i class="material-icons icon review">star</i>
+                            <i class="material-icons icon review">star</i>
+                            <i class="material-icons icon review">star</i>
+                            <span class="review_number">813</span>
+                        </p>
+                        <p class="card_description"><strong>Discover the secrets behind creating the costumes for HBO's
+                                Game of Thrones in this definitive guide.</strong>
+                            <br>
+                            The official guide to the complete costumes of HBO’s landmark television series Game of
+                            Thrones. Discover how BAFTA and Emmy Award-winning costume designer Michele Clapton dressed
+                            the heroes and villains of Westeros and beyond, including Daenerys Targaryen, Cersei
+                            Lannister, Jon Snow, and Arya Stark.
+                            <br>
+                            One of 4 comprehensive and officially licensed Game of Thrones retrospective books from
+                            HarperVoyager.
+                            <br>
+                            • <strong>CRITICALLY ACCLAIMED</strong> – ‘…peruse the best of the robes, gowns, coats, and
+                            suits of armor that made up the rich fabric of Westeros in Game of Thrones: The Costumes’
+                            Vanity Fair
+                            • LEARN HOW COSTUMES DEFINED CHARACTERS – 440 pages of in-depth interviews and commentary on
+                            how costume design helped convey the evolution of George R.R. Martin’s beloved characters
+                            such as Tyrion Lannister, Sansa Stark, and Brienne of Tarth.
+                            • SEE EXCLUSIVE IMAGES AND DESIGNS – Over 1,000 exclusive and rarely seen images including
+                            Michele Clapton’s designs and original concept sketches.
+                            • HEAR FROM THE SHOW’S CREATORS – Features an exclusive foreword from Game of Thrones
+                            showrunners David Benioff and D. B. Weiss.
+                            • AN EYECATCHING COFFEE TABLE BOOK – Deluxe 9.75 × 13 inch format.
+                            • A PERFECT GIFT FOR GAME OF THRONES FANS – Perfectly timed for the holiday season, this
+                            gift will be cherished for a lifetime.
+                        </p>
+                        <div class="price_container">
+                            <span class="price">£39.42</span>
+                            <span class="reduction">£60.00</span>
+                        </div>
+                        <button class="btn">Add to cart</button>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+    </div>
+    <footer>
+        <div id="footer-container">
+            <ul>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">Privacy</a></li>
+            </ul>
+            <span id="copyright">Copyright 2024, StoryShelf</span>
+        </div>
+    </footer>
+
+</body>
+
+</html>
